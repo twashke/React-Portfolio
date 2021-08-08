@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Blog() {
+export default function Portfolio() {
     return (
         <div>
-            <h1>Work</h1>
+            <h1>Portfolio</h1>
             <p>Pictures and Projects Here</p>
         </div>
     );
