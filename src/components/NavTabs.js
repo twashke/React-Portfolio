@@ -1,8 +1,15 @@
 import React from "react";
 
+const styles = {
+
+    nav: {
+        fontFamily: "Roboto",
+    }
+}
+
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <ul className="nav nav-tabs">
+        <ul style={styles.nav} className="nav nav-tabs">
             <li className="nav-item">
                 <a href="#about" 
                 onClick={() => handlePageChange("About")}
