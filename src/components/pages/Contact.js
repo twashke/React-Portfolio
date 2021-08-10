@@ -1,4 +1,8 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
+
+const email = <FontAwesomeIcon icon={faEnvelopeOpenText} />;
 
 const styles = {
     p: {
@@ -12,7 +16,8 @@ const styles = {
     },
     text: {
         color: "white",
-        fontSize: "1rem"
+        fontSize: "1rem",
+        fontFamily: "Roboto",
     },
     button: {
         textAlign: "center",
@@ -25,7 +30,7 @@ const styles = {
 export default function Contact() {
     return (
         <div className="container col-md-4 mt-1" style={styles.text}>
-            <p style={styles.p}>Send a Message Below!</p>
+            <p style={styles.p}>Send a Message {email}</p>
                 <form>
                     <div className="m-2">
                         <label for="name">Name:</label>

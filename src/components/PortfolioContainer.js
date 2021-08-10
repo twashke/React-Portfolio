@@ -38,6 +38,9 @@ export default function PortfolioContainer() {
 
             {renderPage()}
             <Footer />
+                <style>
+                @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+                </style>
         </div>
     );
 }

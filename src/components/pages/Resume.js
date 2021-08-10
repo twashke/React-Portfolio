@@ -4,16 +4,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCogs} from "@fortawesome/free-solid-svg-icons";
 import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import { faUniversity } from "@fortawesome/free-solid-svg-icons";
-import { faFile } from "@fortawesome/free-solid-svg-icons";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 const technical = <FontAwesomeIcon icon={faCogs} size="4x"/>;
 const nonTechnical = <FontAwesomeIcon icon={faLightbulb} size="4x"/>;
 const school = <FontAwesomeIcon icon={faUniversity} size="4x"/>;
-const resume = <FontAwesomeIcon icon={faFile} size="4x"/>;
+const resume = <FontAwesomeIcon icon={faFilePdf} size="4x"/>;
 
 const styles = {
     text: {
         color: "white",
+        fontFamily: "Roboto",
     },
     card: {
         backgroundColor: "black",

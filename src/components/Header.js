@@ -10,6 +10,8 @@ text: {
     color: "white",
     padding: "20px",
     fontSize: "3rem",
+    textAlign: "center",
+    fontFamily: "Roboto",
 }
 }
 
