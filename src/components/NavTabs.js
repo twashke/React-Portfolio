@@ -9,7 +9,7 @@ const styles = {
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <ul style={styles.nav} className="nav nav-tabs">
+        <ul style={styles.nav} className="nav nav-tabs d-flex justify-content-evenly flex-nowrap">
             <li className="nav-item">
                 <a href="#about" 
                 onClick={() => handlePageChange("About")}

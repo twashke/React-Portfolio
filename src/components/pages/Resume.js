@@ -22,11 +22,13 @@ const styles = {
     },
     header: {
         fontWeight: "bolder",
-        fontSize: "1.5rem"
+        fontSize: "1.5rem",
     },
     icon: {
         padding: "20px",
-        marginLeft: "75px"
+        marginLeft: "75px",
+        color: "#d2a0f9",
+        
     }
 }
 

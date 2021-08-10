@@ -1,5 +1,5 @@
 import React from "react";
-import headerBanner from "./images/nature.jpeg";
+import headerBanner from "./images/banner.jpeg";
 
 const styles = {
 image: {

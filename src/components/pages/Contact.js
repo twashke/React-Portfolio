@@ -9,6 +9,7 @@ const styles = {
         textAlign: "center",
         fontWeight: "bold",
         fontSize: "2rem",
+        color: "#d2a0f9",
     },
     input: {
         width: "350px",
@@ -22,7 +23,7 @@ const styles = {
     button: {
         textAlign: "center",
         border: "1px solid white",
-        backgroundColor: "teal",
+        backgroundColor: "#d2a0f9",
         text: "white",
     }
 }
