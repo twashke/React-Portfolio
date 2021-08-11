@@ -1,5 +1,5 @@
 import React from "react";
-import pdfResume from "../images/Resume-Tiffany-Washke.pdf";
+import pdfResume from "../assets/images/Resume-Tiffany-Washke.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCogs} from "@fortawesome/free-solid-svg-icons";
 import { faLightbulb } from "@fortawesome/free-solid-svg-icons";

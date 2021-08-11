@@ -1,5 +1,5 @@
 import React from "react";
-import picture from "./../images/Tiffany.png";
+import picture from "./../assets/images/Tiffany.png";
 
 const styles = {
     text: {
