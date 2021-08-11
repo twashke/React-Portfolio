@@ -11,7 +11,7 @@ image: {
 text: {
     color: "#d2a0f9",
     padding: "20px",
-    fontSize: "2.25rem",
+    fontSize: "2.5rem",
     textAlign: "center",
     fontFamily: "Roboto",
 },
@@ -21,7 +21,7 @@ icon: {
 }
 
 
-const star = <FontAwesomeIcon icon={faStar} style={styles.icon}/>;
+const star = <FontAwesomeIcon icon={faStar} style={styles.icon} size="xs"/>;
 
 function Header() {
     return (
