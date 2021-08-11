@@ -34,7 +34,7 @@ const styles = {
 
 export default function Resume() {
     return (
-        <div className="container d-flex justify-content-evenly flex-wrap mt-5 mb-4" id="resume" style={styles.text}>
+        <div className="container d-flex justify-content-evenly flex-wrap mt-5 mb-4" style={styles.text}>
             <div className="card col-md-3 m-2" style={styles.card}>
                 <div style={styles.icon}>{technical}</div>
                 <h3 style={styles.header}>Technical Skills</h3>
