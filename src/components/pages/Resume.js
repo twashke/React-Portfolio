@@ -1,5 +1,5 @@
 import React from "react";
-import pdfResume from "../images/Resume-Tiffany-Washke.pdf";
+import pdfResume from "../assets/images/Resume-Tiffany-Washke.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCogs} from "@fortawesome/free-solid-svg-icons";
 import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
@@ -34,12 +34,12 @@ const styles = {
 
 export default function Resume() {
     return (
-        <div className="container d-flex justify-content-evenly flex-wrap mt-5 mb-4" style={styles.text}>
+        <div className="container d-flex justify-content-evenly flex-wrap mt-4 mb-4" style={styles.text}>
             <div className="card col-md-3 m-2" style={styles.card}>
                 <div style={styles.icon}>{technical}</div>
                 <h3 style={styles.header}>Technical Skills</h3>
                     <ul>
-                        <li>HTML, CSS, JS, JSX, Markdown</li>
+                        <li>HTML, CSS, JS, Markdown</li>
                         <li>JQuery, Bootstrap, Font Awesome</li>
                         <li>node.js, npm packages</li>
                         <li>Utilizing and Creating API's</li>

@@ -1,5 +1,5 @@
 import React from "react";
-import headerBanner from "./images/banner.jpeg";
+import headerBanner from "./assets/images/banner.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar} from "@fortawesome/free-regular-svg-icons"
 
@@ -27,7 +27,7 @@ const star = <FontAwesomeIcon icon={faStar} style={styles.icon} size="xs" classN
 function Header() {
     return (
             <div>
-                <div className="container profile-text">
+                <div className="container">
                     <h1 style={styles.text}>{star}  Tiffany Washke  {star}</h1>
                 </div>
                 <img src={headerBanner} alt="Lake 22" title="Lake 22" style={styles.image}></img>

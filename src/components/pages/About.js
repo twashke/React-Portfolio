@@ -1,5 +1,5 @@
 import React from "react";
-import picture from "./../images/Tiffany.png";
+import picture from "./../assets/images/Tiffany.png";
 
 const styles = {
     text: {
@@ -20,7 +20,7 @@ const styles = {
 export default function About() {
     return (
         <div className="container d-flex justify-content-evenly flex-wrap mt-3 p-2 mb-2">
-            <div className="card col-md-4 m-2" style={styles.image}>
+            <div className="card col-md-4 m-2 align-self-center" style={styles.image}>
                 <img src={picture} className="img-fluid rounded" alt="Tiffany Washke" title="Tiffany Washke"/>
             </div>
             <div className="card col-md-4 align-self-center" style={styles.text}>
