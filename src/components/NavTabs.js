@@ -4,12 +4,13 @@ const styles = {
 
     nav: {
         fontFamily: "Roboto",
+        backgroundColor: "black",
     }
 }
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <ul style={styles.nav} className="nav nav-tabs d-flex justify-content-evenly flex-nowrap">
+        <ul style={styles.nav} className="nav nav-tabs sticky-top d-flex justify-content-evenly flex-nowrap">
             <li className="nav-item">
                 <a href="#about" 
                 onClick={() => handlePageChange("About")}

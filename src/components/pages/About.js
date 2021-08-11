@@ -11,8 +11,6 @@ const styles = {
         padding: "10px",
     },
     image: {
-        height: "12rem",
-        width: "18rem",
         backgroundColor: "black",
     }
 }
@@ -20,7 +18,7 @@ const styles = {
 export default function About() {
     return (
         <div className="container d-flex justify-content-evenly flex-wrap mt-4 p-3 mb-2">
-            <div className="card col-md-4" style={styles.image}>
+            <div className="card col-md-4 img-fluid img-thumbnail" style={styles.image}>
                 <img src={picture}alt="Tiffany Washke" title="Tiffany Washke"/>
             </div>
             <div className="card col-md-4 align-self-center" style={styles.text}>
