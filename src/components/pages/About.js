@@ -11,8 +11,8 @@ const styles = {
         padding: "10px",
     },
     image: {
-        height: "300px",
-        width: "300px",
+        height: "12rem",
+        width: "18rem",
         backgroundColor: "black",
     }
 }
