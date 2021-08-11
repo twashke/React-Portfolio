@@ -12,14 +12,16 @@ const styles = {
     },
     image: {
         backgroundColor: "black",
+        maxWidth: "100%",
+        height: "auto",
     }
 }
 
 export default function About() {
     return (
         <div className="container d-flex justify-content-evenly flex-wrap mt-4 p-3 mb-2">
-            <div className="card col-md-4 img-fluid img-thumbnail" style={styles.image}>
-                <img src={picture}alt="Tiffany Washke" title="Tiffany Washke"/>
+            <div className="card col-md-4" style={styles.image}>
+                <img src={picture} className="img-fluid rounded" alt="Tiffany Washke" title="Tiffany Washke"/>
             </div>
             <div className="card col-md-4 align-self-center" style={styles.text}>
                 <p>Born in March 1985 in Oklahoma City, Tiffany has spent her life yearning for the next adventure.  Growing up in Everett, Washington and San Bernardino, California, she has experienced flannel to board shorts.  Every failure has taught her something new and she utilizes these moments in new experiences.
