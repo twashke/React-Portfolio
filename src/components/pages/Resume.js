@@ -35,7 +35,7 @@ const styles = {
 export default function Resume() {
     return (
         <div className="container d-flex justify-content-evenly flex-wrap mt-5 mb-4" id="resume" style={styles.text}>
-            <div className="card col-md-3" style={styles.card}>
+            <div className="card col-md-3 m-2" style={styles.card}>
                 <div style={styles.icon}>{technical}</div>
                 <h3 style={styles.header}>Technical Skills</h3>
                     <ul>
@@ -49,7 +49,7 @@ export default function Resume() {
                         <li>React</li>
                     </ul>
             </div>
-            <div className="card col-md-3" style={styles.card}>
+            <div className="card col-md-3 m-2" style={styles.card}>
             <div style={styles.icon}>{nonTechnical}</div>
                 <h3 style={styles.header}>Non-Technical Skills</h3>
                     <ul>
@@ -60,7 +60,7 @@ export default function Resume() {
                         <li>Sense of Humor</li>
                     </ul>
             </div>
-            <div className="card col-md-3" style={styles.card}>
+            <div className="card col-md-3 m-2" style={styles.card}>
             <div style={styles.icon}>{school}</div>
                 <h3 style={styles.header}>Education</h3>
                     <ul>
@@ -68,7 +68,7 @@ export default function Resume() {
                         <li>March 16, 2021 to September 2, 2021</li>
                     </ul>
                     <div style={styles.icon}>{resume}</div>
-                    <a href={pdfResume} target="_blank" rel="noreferrer">
+                    <a href={pdfResume} className="m-2" target="_blank" rel="noreferrer">
                     <h5 style={styles.header} className="card-text">Link to PDF Resume</h5></a>
             </div> 
         </div>
