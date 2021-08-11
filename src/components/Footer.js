@@ -14,7 +14,7 @@ function Footer() {
     return (
 <footer className="text-center text-white">
     <div className="container p-3">
-        <section className="mb-4 d-flex justify-content-evenly ">
+        <section className="mb-4 d-flex justify-content-evenly">
             <a className="btn btn-outline-light btn-floating m-1" href="https://stackoverflow.com/users/15231751/twashke?tab=profile" title="Contact me on Stack Overflow!" target="_blank"  rel="noreferrer" role="button">{stackOverflow}</a>
 
             <a className="btn btn-outline-light btn-floating m-1" href="https://twitter.com/twashke1" title="Contact me on Twitter!" target="_blank"  rel="noreferrer" role="button">{twitter}</a>
