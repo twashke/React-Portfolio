@@ -7,7 +7,7 @@ image: {
     width: "100%",
 },
 text: {
-    color: "white",
+    color: "#d2a0f9",
     padding: "20px",
     fontSize: "3rem",
     textAlign: "center",
