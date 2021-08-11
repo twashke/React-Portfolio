@@ -19,7 +19,7 @@ function Footer() {
 
             <a className="btn btn-outline-light btn-floating m-1" href="https://twitter.com/twashke1" title="Contact me on Twitter!" target="_blank"  rel="noreferrer" role="button">{twitter}</a>
 
-            <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/tiffany-washke" title="Contact me on LinkedIn!" target="_blank"  rel="noreferrer" role="button">{linkedIn}</a>
+            <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/tiffanywashke" title="Contact me on LinkedIn!" target="_blank"  rel="noreferrer" role="button">{linkedIn}</a>
 
             <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/twashke" title="Check out my GitHub!" target="_blank"  rel="noreferrer" role="button">{github}</a>
         </section>
