@@ -42,9 +42,13 @@ function handleFormSubmit(event) {
     const email = document.querySelector("#email").value.trim();
     const message = document.querySelector("#message").value.trim();
 
-    // User enters all fields
-    if(name && email && message) {
+    // If User doesn't add a valid email address
+    if (email.indexOf("@") == -1) {
+        // Send alert to input a valid email adderess
+        alert("Please enter a valid email address!")
 
+    // If user enters all fields   
+    } else if(name && email && message) {
         // Input can be viewed in console log
         console.log("Name: ", name);
         console.log("Email: ", email);
@@ -64,10 +68,10 @@ function handleFormSubmit(event) {
 function formValidation() {
 
     const input = document.querySelector(".form-input").value
-
+    
     if (!input) {
         return alert("This field is required!")
-    }
+    } 
 
 }
 
