@@ -1,10 +1,10 @@
 import React from "react";
-import happyArtGallery from "./../assets/images/happy-little-art-gallery.png";
-import moodTracker from "./../assets/images/mood-tracker.png";
-import techBlog from "./../assets/images/CMS-Tech-Blog.png";
-import workoutTracker from "./../assets/images/fitness-tracker.png";
-import progressiveBudget from "./../assets/images/progressive-budget-tracker.png";
-import employeeTracker from "./../assets/images/employee-tracker.png";
+import happyArtGallery from "./../images/happy-little-art-gallery.png";
+import moodTracker from "./../images/mood-tracker.png";
+import techBlog from "./../images/CMS-Tech-Blog.png";
+import workoutTracker from "./../images/fitness-tracker.png";
+import progressiveBudget from "./../images/progressive-budget-tracker.png";
+import employeeTracker from "./../images/employee-tracker.png";
 
 const styles = {
     cardStyle: {

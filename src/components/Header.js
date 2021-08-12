@@ -1,5 +1,5 @@
 import React from "react";
-import headerBanner from "./assets/images/banner.jpeg";
+import headerBanner from "./images/banner.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar} from "@fortawesome/free-regular-svg-icons"
 
