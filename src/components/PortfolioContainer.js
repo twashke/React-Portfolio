@@ -7,12 +7,14 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
+// Styling Added
 const styles = {
     background: {
         backgroundColor: "black"
     }
 }
 
+// Export the Function
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState("About");
 

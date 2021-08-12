@@ -1,5 +1,6 @@
 import React from "react";
 
+// Styling Added
 const styles = {
 
     nav: {
@@ -12,7 +13,8 @@ const styles = {
     }
 }
 
-function NavTabs({ currentPage, handlePageChange }) {
+// Export the function
+export default function NavTabs({ currentPage, handlePageChange }) {
     return (
         <ul style={styles.nav} className="nav nav-tabs sticky-top d-flex justify-content-evenly flex-nowrap">
             <li className="nav-item">
@@ -42,5 +44,3 @@ function NavTabs({ currentPage, handlePageChange }) {
         </ul>
     );
 }
-
-export default NavTabs;

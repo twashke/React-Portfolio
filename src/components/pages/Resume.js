@@ -6,11 +6,13 @@ import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import { faUniversity } from "@fortawesome/free-solid-svg-icons";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
+// Font Awesome Icons
 const technical = <FontAwesomeIcon icon={faCogs} size="4x"/>;
 const nonTechnical = <FontAwesomeIcon icon={faLightbulb} size="4x"/>;
 const school = <FontAwesomeIcon icon={faUniversity} size="4x"/>;
 const resume = <FontAwesomeIcon icon={faFilePdf} size="4x" style={{ color: "#40BCD8" }}/>;
 
+// Styles Added 
 const styles = {
     text: {
         color: "white",
@@ -37,6 +39,7 @@ const styles = {
     }
 }
 
+// Export the function
 export default function Resume() {
     return (
         <div className="container d-flex justify-content-evenly flex-wrap mt-4 mb-4" style={styles.text}>
