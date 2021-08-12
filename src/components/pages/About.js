@@ -14,6 +14,7 @@ const styles = {
         backgroundColor: "black",
         maxWidth: "300px",
         height: "auto",
+        border: "2px solid white",
     }
 }
 
