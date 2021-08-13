@@ -61,7 +61,7 @@ export default function Portfolio() {
             </div>
             <div className="card m-3" style={styles.cardStyle}>
                 <div>
-                    <a className="text-decoration-none text-reset" href="https://github.com/twashke/Tech-Blog" 
+                    <a className="text-decoration-none text-reset" href="https://techblogmvc072021.herokuapp.com/" 
                     target="_blank" rel="noreferrer">
                     <h4 className="mt-3">Tech Blog</h4>
                     <img src={techBlog} className="rounded mb-3" style={styles.imageSize} alt="Tech Blog" title="Click me to view the Deployed Tech Blog Website!"/></a>
