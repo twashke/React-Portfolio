@@ -75,7 +75,7 @@ export default function Resume() {
                         <li>Enrolled in UW Coding Bootcamp</li>
                         <li>March 16, 2021 to September 2, 2021</li>
                     </ul>
-                    <div className="mt-4">
+                    <div className="mt-2">
                         <a href={pdfResume} style={styles.icon}>{resume}</a></div>
                         <a href={pdfResume} className="mt-4 text-decoration-none text-reset" target="_blank" rel="noreferrer">
                     <h5 style={styles.link} className="card-text">Link to PDF Resume</h5></a>
