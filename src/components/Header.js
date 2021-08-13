@@ -29,9 +29,9 @@ export default function Header() {
     return (
             <div>
                 <div className="container">
-                    <h1 style={styles.text}>{star}  Tiffany Washke  {star}</h1>
+                    <h1 className="text-wrap" style={styles.text}>{star}  Tiffany Washke  {star}</h1>
                 </div>
-                <img src={headerBanner} style={styles.image}></img>
+                <img src={headerBanner} style={styles.image} alt="Tiffany Washke Portfolio" title="Thank you for checking out my portfolio!"></img>
             </div>
         )
 }
