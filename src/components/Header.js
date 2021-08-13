@@ -31,7 +31,7 @@ export default function Header() {
                 <div className="container">
                     <h1 style={styles.text}>{star}  Tiffany Washke  {star}</h1>
                 </div>
-                <img src={headerBanner} alt="Lake 22" title="Lake 22" style={styles.image}></img>
+                <img src={headerBanner} style={styles.image}></img>
             </div>
         )
 }
