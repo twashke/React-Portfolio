@@ -4,7 +4,9 @@
 
 ## Description
 
-A portfolio for Tiffany Washke utilizing React for front end development.
+A portfolio for Tiffany Washke utilizing React for all front end code. When initally opened the page loads the **About Me** page where a profile picture and biography is displayed. The **Nav Tabs** of the section being viewed is highlighted to show which page is active. The **NAv Tabs** shows the user the following options: [About Me](https://twashke.github.io/react-portfolio/#about), [Portfolio](https://twashke.github.io/react-portfolio/#portfolio), [Contact](https://twashke.github.io/react-portfolio/#contact), and [Resume](https://twashke.github.io/react-portfolio/#resume).
+
+The **Portfolio** allows the user the ability to view all projects, links to both the deployed site and the GitHub repository are included. The **Contact** page allows the user the ability to send input a name, email and a message (currently not connected to a server so the items are console logged and a message is sent to the user). The
 
 ## Table of Contents
 

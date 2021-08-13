@@ -10,7 +10,7 @@ import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 const technical = <FontAwesomeIcon icon={faCogs} size="4x"/>;
 const nonTechnical = <FontAwesomeIcon icon={faLightbulb} size="4x"/>;
 const school = <FontAwesomeIcon icon={faUniversity} size="4x"/>;
-const resume = <FontAwesomeIcon icon={faFilePdf} size="4x" style={{ color: "#40BCD8" }}/>;
+const resume = <FontAwesomeIcon icon={faFilePdf} size="4x" style={{ color: "#d2a0f9" }}/>;
 
 // Styles Added 
 const styles = {
@@ -35,7 +35,7 @@ const styles = {
     link: {
         fontWeight: "bolder",
         fontSize: "1.5rem",
-        color: "#d2a0f9",
+        color: "#40BCD8",
     }
 }
 
