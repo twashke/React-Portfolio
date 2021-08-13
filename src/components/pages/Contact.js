@@ -70,14 +70,14 @@ function formValidation() {
     const message = document.querySelector("#message").value.trim();
     
     // If no name send an alert
-    if (!name) {
+    if (!name.length) {
         return alert("Please enter a name!")
     // If no email or no @ send an alert
-    } else if(!email || email.indexOf("@") === -1) {
+    } else if(!email.length || email.indexOf("@") === -1) {
         // Send alert to input a valid email adderess
         alert("Please enter a valid email address!")
     // If no message send an alert
-    } else if (!message) {
+    } else if (!message.length) {
         return alert("Please enter a message!")
     }
 
