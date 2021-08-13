@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/react-portfolio/static/js/main.749ec05e.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.749ec05e.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.4232fc20.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.4232fc20.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
     "static/css/2.818011ed.chunk.css": "/react-portfolio/static/css/2.818011ed.chunk.css",
@@ -14,16 +14,16 @@
     "static/media/Resume-Tiffany-Washke.51d9069d.pdf": "/react-portfolio/static/media/Resume-Tiffany-Washke.51d9069d.pdf",
     "static/media/Tiffany.6f28b3aa.png": "/react-portfolio/static/media/Tiffany.6f28b3aa.png",
     "static/media/banner.8ee0e3a3.jpeg": "/react-portfolio/static/media/banner.8ee0e3a3.jpeg",
-    "static/media/employee-tracker.a9e5d05e.png": "/react-portfolio/static/media/employee-tracker.a9e5d05e.png",
     "static/media/fitness-tracker.bfe42789.png": "/react-portfolio/static/media/fitness-tracker.bfe42789.png",
     "static/media/happy-little-art-gallery.4673bd81.png": "/react-portfolio/static/media/happy-little-art-gallery.4673bd81.png",
     "static/media/mood-tracker.a801a684.png": "/react-portfolio/static/media/mood-tracker.a801a684.png",
-    "static/media/progressive-budget-tracker.115cf534.png": "/react-portfolio/static/media/progressive-budget-tracker.115cf534.png"
+    "static/media/progressive-budget-tracker.115cf534.png": "/react-portfolio/static/media/progressive-budget-tracker.115cf534.png",
+    "static/media/weather-dashboard.c901db35.png": "/react-portfolio/static/media/weather-dashboard.c901db35.png"
   },
   "entrypoints": [
     "static/js/runtime-main.872b2f22.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.395e8ad3.chunk.js",
-    "static/js/main.749ec05e.chunk.js"
+    "static/js/main.4232fc20.chunk.js"
   ]
 }
