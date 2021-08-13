@@ -51,7 +51,8 @@ function handleFormSubmit(event) {
 
         // Send alert thanking them for the message (can later connect to server and send email)
         alert("Thank you for sending a message!")
-        window.location.reload(false);
+        // Refresh and send back to home screen
+        window.location.reload();
 
 
     // User misses a field
