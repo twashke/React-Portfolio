@@ -62,7 +62,6 @@ Mobile Friendly Design \
 **About Me** Section \
 \
 ![About Me](./src/components/images/about-me.png)
-\
 
 **Portfolio** Section \
 \
