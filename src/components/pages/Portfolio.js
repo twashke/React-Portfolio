@@ -8,7 +8,7 @@ import moodTracker from "./../images/mood-tracker.png";
 import techBlog from "./../images/CMS-Tech-Blog.png";
 import workoutTracker from "./../images/fitness-tracker.png";
 import progressiveBudget from "./../images/progressive-budget-tracker.png";
-import employeeTracker from "./../images/employee-tracker.png";
+import weatherDashboard from "./../images/weather-dashboard.png";
 
 // Font Awesome Github Icon
 const github = <FontAwesomeIcon icon={faGithub} size="sm" style={{ color: "black" }} className="align-baseline"/>;
@@ -100,13 +100,13 @@ export default function Portfolio() {
             </div>
             <div className="card m-3" style={styles.cardStyle}>
                 <div>
-                    <a className="text-decoration-none text-reset" href="https://github.com/twashke/Employee-Tracker" 
+                    <a className="text-decoration-none text-reset" href="https://twashke.github.io/Weather-Dashboard/" 
                     target="_blank" rel="noreferrer">
-                    <h4 className="mt-3">Employee Tracker</h4>
-                    <img src={employeeTracker} className="rounded mb-3" style={styles.imageSize} alt="Employee Tracker" title="Click me to clone code from GitHub and install locally!"/></a>
+                    <h4 className="mt-3">Weather Dashboard</h4>
+                    <img src={weatherDashboard} className="rounded mb-3" style={styles.imageSize} alt="Weather Dashboard" title="Click me to view the Deployed Weather Dashboard Website!"/></a>
                 </div>
                 <div>
-                    <a className="text-decoration-none text-reset" href="https://github.com/twashke/Employee-Tracker" 
+                    <a className="text-decoration-none text-reset" href="https://github.com/twashke/Weather-Dashboard" 
                     target="_blank" rel="noreferrer">
                     <h5 style={{ color: "black" }}>{github}  GitHub Repository</h5></a>
                 </div>
