@@ -38,25 +38,22 @@ const styles = {
 function handleFormSubmit(event) {
     event.preventDefault();
 
-    const name = document.querySelector("#name").value.trim();
+    let name = document.querySelector("#name").value.trim();
     const email = document.querySelector("#email").value.trim();
     const message = document.querySelector("#message").value.trim();
 
-    // If User doesn't add a valid email address
-    if (email.indexOf("@") == -1) {
-        // Send alert to input a valid email adderess
-        alert("Please enter a valid email address!")
-
     // If user enters all fields   
-    } else if(name && email && message) {
+    if(name && email && message) {
         // Input can be viewed in console log
         console.log("Name: ", name);
         console.log("Email: ", email);
         console.log("Message: ", message);
 
         // Send alert thanking them for the message (can later connect to server and send email)
-        return alert("Thank you for sending a message!")
-      
+        alert("Thank you for sending a message!")
+        window.location.reload(false);
+
+
     // User misses a field
     } else {
         // Send alert to fill in missing field
@@ -67,16 +64,24 @@ function handleFormSubmit(event) {
 // Function for form validation
 function formValidation() {
 
-    const input = document.querySelector(".form-input").value
+    const name = document.querySelector("#name").value.trim();
+    const email = document.querySelector("#email").value.trim();
+    const message = document.querySelector("#message").value.trim();
     
-    if (!input) {
-        return alert("This field is required!")
-    } 
+    if (!name) {
+        return alert("Please enter a name!")
+    } else if(!email || email.indexOf("@") === -1) {
+        // Send alert to input a valid email adderess
+        alert("Please enter a valid email address!")
+    } else if (!message) {
+        return alert("Please enter a message!")
+    }
 
 }
 
 // Export the function
 export default function Contact() {
+    
     return (
         <div className="container col-md-4 mt-4" style={styles.text}>
             <p style={styles.p}>Send a Message {email}</p>
@@ -85,19 +90,19 @@ export default function Contact() {
                         <h4>Name:</h4>
                     </div>
                     <div className="form-control" onBlur={formValidation}>
-                        <input className="form-input" style={styles.input} type="text" id="name" placeholder="Enter your name here (required)" required/>
+                        <input className="form-input" style={styles.input} type="text" id="name" placeholder="Enter your name here (required)" autoComplete="off" required/>
                     </div>
                     <div className="m-2">
                         <h4>Email:</h4>
                     </div>
                     <div className="form-control" onBlur={formValidation}>
-                        <input className="form-input" style={styles.input} type="text" id="email" placeholder="Enter your email address here (required)" required/>
+                        <input className="form-input" style={styles.input} type="email" id="email" placeholder="Enter your email address here (required)" autoComplete="off" required/>
                     </div>
                     <div className="m-2">
                         <h4>Message:</h4>
                     </div>
                     <div className="form-control" onBlur={formValidation}>
-                        <textarea className="form-input mb-4" style={styles.input} type="text" id="message" rows="3" placeholder="Enter your message here (required)" required></textarea>
+                        <textarea className="form-input mb-4" style={styles.input} type="text" id="message" rows="3" placeholder="Enter your message here (required)" autoComplete="off" required></textarea>
                     </div>
                     <div className="d-grid gap-2 col-6 mx-auto m-3">
                         <button style={styles.button} onClick={handleFormSubmit} className="btn" id="button" type="submit">Contact Me!</button>
