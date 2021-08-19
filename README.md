@@ -43,7 +43,7 @@ A portfolio for Tiffany Washke utilizing [React](https://reactjs.org/) and desig
 - Use the command line to **git clone**
 - **npm install**
 - **npm start** from command line to connect server.
-- Go to [localhost:3001](http://localhost:3000/) in Web Browser to view.
+- Go to [localhost:3000](http://localhost:3000/) in Web Browser to view.
 
 ## Usage
 
