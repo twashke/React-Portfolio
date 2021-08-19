@@ -4,7 +4,7 @@
 
 ## Description
 
-A portfolio for Tiffany Washke utilizing [React](https://reactjs.org/) and designed to be mobile friendly. When initally opened the page loads the **About Me** page where a profile picture and biography is displayed. The **Nav Tabs** of the section being viewed is highlighted to show which page is active. The **Navigation Tabs** shows the user the following options: [About Me](https://twashke.github.io/react-portfolio/#about), [Portfolio](https://twashke.github.io/react-portfolio/#portfolio), [Contact](https://twashke.github.io/react-portfolio/#contact), and [Resume](https://twashke.github.io/react-portfolio/#resume). Each page includes a header with the name and a banner, while the footer includes links to **Tiffany Washke's** [Stack Overflow](https://stackoverflow.com/), [Twitter](https://twitter.com/?lang=en), [LinkedIn](https://www.linkedin.com/), and [GitHub](https://github.com/).
+A portfolio for Tiffany Washke utilizing [React](https://reactjs.org/) and designed to be mobile friendly. When initally opened the page loads the **About Me** page where a profile picture and biography is displayed. The **Nav Tabs** of the section being viewed is highlighted to show which page is active. The **Navigation Tabs** shows the user the following options: [About Me](https://twashke.github.io/Tiffany-Washke-React-Portfolio/#about), [Portfolio](https://twashke.github.io/Tiffany-Washke-React-Portfolio/#portfolio), [Contact](https://twashke.github.io/Tiffany-Washke-React-Portfolio/#contact), and [Resume](https://twashke.github.io/Tiffany-Washke-React-Portfolio/#resume). Each page includes a header with the name and a banner, while the footer includes links to **Tiffany Washke's** [Stack Overflow](https://stackoverflow.com/), [Twitter](https://twitter.com/?lang=en), [LinkedIn](https://www.linkedin.com/), and [GitHub](https://github.com/).
 
 ## Table of Contents
 
@@ -19,12 +19,12 @@ A portfolio for Tiffany Washke utilizing [React](https://reactjs.org/) and desig
 ## About the Project
 
 - This application was designed to be mobile friendly and was designed utilizing [React](https://reactjs.org/).
-- The application opens to the [**About Me**](https://twashke.github.io/react-portfolio/#about) section where a picture and a biography for Tiffany Washke is displayed.
+- The application opens to the [**About Me**](https://twashke.github.io/Tiffany-Washke-React-Portfolio/#about) section where a picture and a biography for Tiffany Washke is displayed.
 - The navigation tabs allow the user to navigate between the different pages and the current page the user is on remains highlighted.
-- The [**Portfolio**](https://twashke.github.io/react-portfolio/#portfolio) section allows the user the ability to view Tiffany Washke's projects. The projects include a link to the website (either the picture or project name), as well as a link to the GitHub Repository.
-- The [**Contact**](https://twashke.github.io/react-portfolio/#contact) section allows the user to input their name, email and message. Since this is only a client side portfolio, this information is not stored anywhere.
+- The [**Portfolio**](https://twashke.github.io/Tiffany-Washke-React-Portfolio/#portfolio) section allows the user the ability to view Tiffany Washke's projects. The projects include a link to the website (either the picture or project name), as well as a link to the GitHub Repository.
+- The [**Contact**](https://twashke.github.io/Tiffany-Washke-React-Portfolio/#contact) section allows the user to input their name, email and message. Since this is only a client side portfolio, this information is not stored anywhere.
 - The user inputs are validated, if the user leaves a field empty after clicking on it, an alert will pop up letting the user know what to fix. If the email is not an email address, the user will also be notified to input a valid email address. Once all fields are filled and the button is pushed, an alert thanks the user and the message can be seen in the console (in the future this could be a post request to send an email; however, no server is currently being utilized for this project). Once the message has been sent, the user is redirected to the **About Me** section.
-- The [**Resume**](https://twashke.github.io/react-portfolio/#resume) section includes techincal skills, non-technical skills, and education. A PDF link to the resume is also included (click on the PDF icon or the Link to Resune PDF).
+- The [**Resume**](https://twashke.github.io/Tiffany-Washke-React-Portfolio/#resume) section includes techincal skills, non-technical skills, and education. A PDF link to the resume is also included (click on the PDF icon or the Link to Resune PDF).
 - The React image was replaced with a new Favicon image generated using [Favicon Generator](https://favicon.io/) and the [Milky Way emoji 🌌](https://emojipedia.org/emoji/%F0%9F%8C%8C/).
 
 - Built with the following technologies:
@@ -39,7 +39,7 @@ A portfolio for Tiffany Washke utilizing [React](https://reactjs.org/) and desig
 
 ## Installation
 
-- Open [react portfolio GitHub Repository](https://github.com/twashke/react-portfolio).
+- Open [react portfolio GitHub Repository](https://github.com/twashke/Tiffany-Washke-React-Portfolio).
 - Use the command line to **git clone**
 - **npm install**
 - **npm start** from command line to connect server.
@@ -47,7 +47,7 @@ A portfolio for Tiffany Washke utilizing [React](https://reactjs.org/) and desig
 
 ## Usage
 
-- Go to [Deployed React Portfolio](https://twashke.github.io/react-portfolio/).
+- Go to [Deployed React Portfolio](https://twashke.github.io/Tiffany-Washke-React-Portfolio/).
 - Use the Navigation Tabs to view the following sections: **About Me**, **Portfolio**, **Contact**, and **Resume**.
 - On the **Portfolio** page, check out projects I have created or have been a part of.
 - Send a message on the **Contact** page and view the console to see the user input (future updates would include the addition of a server to make requests using the user input).
