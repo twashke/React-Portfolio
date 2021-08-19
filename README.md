@@ -1,4 +1,4 @@
-# React Portfolio
+# Tiffany Washke React Portfolio
 
 [![Badge](https://img.shields.io/badge/GitHub-twashke-blueviolet?style=flat-square&logo=appveyor)](https://github.com/twashke) [![Badge](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 
